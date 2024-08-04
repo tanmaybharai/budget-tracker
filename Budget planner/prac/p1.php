@@ -1,7 +1,7 @@
 <?php
     $name=$_POST['name'];
     $pass=$_POST['pass'];
-
+	echo"";
     $conn = new mysqli('localhost','root','','prac1');
     if($conn->connect_error){
         die('connection failed'.$conn->connect_error);
