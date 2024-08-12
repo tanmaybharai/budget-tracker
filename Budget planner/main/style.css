@@ -4,31 +4,37 @@
 }
 
  body{
-    background-image: linear-gradient(to left, #6F8FFF, #9D1FFF);
+    background-image: linear-gradient(to left, #6F8FFF, #9D1FFF) ;
     font-family: 'poppins';
     
 } 
-/* .wholebbox{
-    align-items: center;
-    
-
-}   */
-/* input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 2px solid red;
-  } */
-
 .wholebbox{
-    margin-top: 7rem;
-    margin-left: 40rem;
-    margin-right: 40rem;
-   
-    /* margin-bottom: -550px; */
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-top: 5rem;
+    margin-left: 30rem;
+    margin-right: 5rem;
+    backdrop-filter: blur(15x);
 }
+ 
+/* for h1 write which is register */
+
+
+
+/* for input texts */
+.inputfor{
+    padding: 20px 15px 30px 30px;
+    border-radius: 4px;
+    border-style: none;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+    
+    
+}
+
 
 .box{
     
@@ -39,13 +45,16 @@
     padding:40px 0px 40px 75px
 }
 
-
-.h1{
-    font-weight: 100;
-    align-items: center;
+.inputbox{
+    padding: 4px 0;
+    border-radius: 4px;
+    border-style: none;
+    margin-top: 20px;
+    
 }
 
-/* for button signup */
+/* for button */
+
 .btn1{
     align-items: center;
     margin-left: 45px;
@@ -57,35 +66,17 @@
     margin-top: 20px;
     
 }
+
 .btn1:hover{
     background-color: #080881;
 }
-/* .box h3{
-    font-weight: 300;
-    margin-bottom: 10px;
-    margin-top: 10px;
-} */
-
-.inputbox{
-    padding: 4px 0;
-    border-radius: 4px;
-    border-style: none;
-    margin-top: 20px;
-    
-}
-
 
 hr{
     width: 170px;
 }
 
-
-.h4 {
-    font-size: 7px;
-    font-weight: 100;
-    margin-right: 20px;
-}
-
 a{
     text-decoration: none;
 }
+
+
