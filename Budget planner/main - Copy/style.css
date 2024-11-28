@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ body{
+    background-image: linear-gradient(to left, #6F8FFF, #9D1FFF) ;
+    font-family: 'poppins';
+    
+} 
+.wholebbox{
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-top: 5rem;
+    margin-left: 30rem;
+    margin-right: 5rem;
+    backdrop-filter: blur(15x);
+}
+ 
+/* for h1 write which is register */
+
+
+
+/* for input texts */
+.inputfor{
+    padding: 20px 15px 30px 30px;
+    border-radius: 4px;
+    border-style: none;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+    
+    
+}
+
+
+.box{
+    
+    background-color: rgb(255, 255, 255);
+    
+    border-radius: 30px;
+    align-items: center;
+    padding:40px 0px 40px 75px
+}
+
+.inputbox{
+    padding: 4px 0;
+    border-radius: 4px;
+    border-style: none;
+    margin-top: 20px;
+    
+}
+
+/* for button */
+
+.btn1{
+    align-items: center;
+    margin-left: 45px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #6c6ce6;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+.btn1:hover{
+    background-color: #080881;
+}
+
+hr{
+    width: 170px;
+}
+
+a{
+    text-decoration: none;
+}
+
+

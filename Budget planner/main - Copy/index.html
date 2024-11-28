@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-    <link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="style1.css">
+
 </head>
 <body>
 
 <div class="sidebar">
   <h3>Budget Tracker</h3>
-  <a href="index.html">Home</a>
-  <a href="analysis.html">Analysis</a>
+  <a href="#">Recods</a>
+  <a href="#">Analisis</a>
   <a href="#">Catagory</a>
   <a href="#">Account</a>
-  <a href="about-us.html">About Us</a>
 </div>
 
 <div class="content">
@@ -23,7 +22,7 @@
             <div>
                 <h1>&#10004; Balance:
                     <span id="updatedBal">
-                          <!-- 7000 -->
+                          7000
                       </span>
                 </h1>
             </div>
@@ -34,7 +33,7 @@
                     <div>
                         <h2 style="color: green;"
                             id="updatedInc">
-                            <!-- 25000 -->
+                            25000
                         </h2>
                     </div>
                 </div>
@@ -44,7 +43,7 @@
                     <div>
                         <h2 style="color: red;" 
                             id="updatedExp">
-                            <!-- 18000 -->
+                            18000
                         </h2>
                     </div>
                 </div>
@@ -66,9 +65,8 @@
     </div>
   
     <div class="container">
-        <div class="addbtn1">
-        <button id="openDialogBtn" class="addbtn" >Add</button>
-    </div></div>
+        <button id="openDialogBtn">Add</button>
+    </div>
 
     <!-- The Modal Dialog -->
     <div id="myDialog" class="dialog">
@@ -100,14 +98,11 @@
                            name="mod" 
                            type="number" 
                            placeholder="amount" />
-                           <footer>
-                        <button onclick="addItem()" class="addexp">
-                            Add Expense
-                        </button></footer>
                 </div>
-               
             </div>
-            
+            <button onclick="addItem()">
+                Add Expense
+            </button>
         </div>
     </div>
     
@@ -147,9 +142,4 @@
 </div>
 <script src="script.js"></script>
 </body>
-
-
-
-
-
 </html>

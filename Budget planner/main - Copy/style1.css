@@ -130,7 +130,6 @@ body {
     box-sizing: content-box;
    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
     min-height: 30vh;
-    
 }
 .vertical {
     color: rgb(35, 35, 106);
@@ -173,7 +172,7 @@ body {
     flex-direction: row;
     font-weight: bolder;
     font-size: large;
-    /* padding: 1%; */
+    padding: 1%;
 }
 
 input,
@@ -211,42 +210,7 @@ button {
   padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 350px;
-    margin-left: -710px;
-    border: none;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-
   
-}
-.addbtn {
-  /* Add shadow */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  /* Set button background color */
-  background-color: #4CAF50;
-  /* Set button text color */
-  color: white;
-  /* Set button padding */
-  padding: 10px 20px;
-  /* Set border radius */
-  border-radius: 5px;
-  /* Remove border */
-  border: none;
-  /* Set cursor effect */
-  cursor: pointer;
-  /* Set transition for smooth hover effect */
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.addbtn:hover {
-  /* Change background color on hover */
-  background-color:#225c00;
-  /* Intensify shadow on hover */
-  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
-  /* Change cursor to pointer on hover */
-  cursor: pointer;
 }
 
 .dialog {
@@ -256,12 +220,11 @@ button {
   left: 0;
   top: 0;
   width: 100%;
-  height: 500px;
+  height: 100%;
   overflow: auto;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
   padding-top: 60px;
-  
 }
 
 .dialog-content {
@@ -270,7 +233,6 @@ button {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
-  height: 75%;
   max-width: 500px;
   text-align: center;
   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
@@ -297,25 +259,10 @@ button {
 }
 .dialog-content button {
   position: absolute;
-  bottom: 40px; /* Adjust this value as needed */
+  bottom: 20px; /* Adjust this value as needed */
   left: 50%;
   transform: translateX(-50%);
-  padding: 10px 30px;
+  padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  margin-bottom: 70px;
-}
-
-.addexp{
-  height: 40px;
-  /* margin-bottom: -50px; */
-  margin-top: 90px;
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-   
-}
-
-.addexp:hover{
-  background-color: #225c00;
 }
